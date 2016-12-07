@@ -1,0 +1,49 @@
+.about {}
+.about-wei {
+    text-align: center;
+}
+.about-img,
+.about-img .in-img {
+    display: block;
+    width: 124px;
+    height: 110px;
+    margin: 20px auto 0;
+}
+.about-title {
+    display: inline-block;
+    margin: 20px 0;
+}
+.about-content {
+  text-indent:2em;
+  font-size: 0.8rem;
+  margin:0 24px;
+  line-height: 1.3rem;
+}
+.about-addr {
+  font-size:0.8rem;
+  line-height:1.6rem;
+  text-indent: 2em;
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

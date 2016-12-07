@@ -1,6 +1,4 @@
-.about {
-  padding-bottom: 150rpx;
-}
+.about {}
 .about-wei {
     text-align: center;
 }

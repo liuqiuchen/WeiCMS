@@ -1,4 +1,4 @@
-<!-- list.wxml -->
+<!-- detail.wxml -->
 <view class="about">
 <view class="about-wei">
     <view class="about-img"><image class="in-img" src="{{img}}" background-size="cover"></image></view>

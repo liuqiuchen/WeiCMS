@@ -1,4 +1,20 @@
 <!--pages/lists/lists.wxml-->
 <view class="lists">
-    123456
+    <!-- 文章列表模版开始 -->
+
+    <template name="lists">
+        <navigator url="../detail/detail?id={{id}}">
+            <view><image src="{{img}}" class="in-img" background-size="cover"></image></view>
+            <view>
+                <view>{{title}}</view>
+                <view>{{cTime}}</view>
+            </view>
+        </navigator>
+    </template>
+
+
+    <view wx:for="{{newsList}}" wx:key="{{index}}">
+        <template is="lists" data="{{...item}}"></template>
+    </view>
+
 </view>

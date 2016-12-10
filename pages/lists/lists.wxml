@@ -4,16 +4,16 @@
 
     <template name="lists">
         <navigator url="../detail/detail?id={{id}}">
-            <view><image src="{{img}}" class="in-img" background-size="cover"></image></view>
-            <view>
-                <view>{{title}}</view>
-                <view>{{cTime}}</view>
+            <view class="imgs"><image src="{{img}}" class="in-img" background-size="cover"></image></view>
+            <view class="infos">
+                <view class="title">{{title}}</view>
+                <view class="date">{{cTime}}</view>
             </view>
         </navigator>
     </template>
 
 
-    <view wx:for="{{newsList}}" wx:key="{{index}}">
+    <view wx:for="{{newsList}}" wx:key="{{index}}" class="list">
         <template is="lists" data="{{...item}}"></template>
     </view>
 

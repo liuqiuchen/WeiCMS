@@ -1,4 +1,7 @@
 <!-- detail.wxml -->
 <view class="detail">
-detail
+<view class="title">{{info.title}}</view>
+<view class="cTime">{{info.cTime}}</view>
+<view class="img"><image src="{{info.img}}" class="in-img" background-size="cover"></image></view>
+<view class="content">{{info.content}}</view>
 </view>
